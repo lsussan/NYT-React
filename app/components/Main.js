@@ -92,30 +92,27 @@ class Main extends React.Component {
 
     render() {
 
-        return ( <
-            div className = "container" >
-            <
-            div className = "jumbotron" >
-            <
-            h1 > New York Times Article Scrubber < /h1> <
-            p > Search
-            for and annotate articles of interest! < /p> <
-            /div> <
-            div className = "row" >
+        return ( <div className = "container" >
+            <div className = "jumbotron" >
+            <h1> New York Times Article Scrubber </h1> 
+            <p> Search
+            for and annotate articles of interest! </p>
+            <div> 
+                <div className = "row" >
             <
             Search setTerm = { this.setTerm }
             setArticleToSave = { this.setArticleToSave }
             saved = { this.state.saved }
             results = { this.state.results }
             resultToSave = { this.state.resultToSave }
-            /> <
-            /div> <
+            /> < /
+            div > <
             div className = "row" >
             <
             Saved saved = { this.state.saved }
             deleteArticle = { this.deleteArticle }
-            /> <
-            /div> <
+            /> < /
+            div > <
             /div>
         );
     }
