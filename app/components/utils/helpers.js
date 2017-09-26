@@ -1,7 +1,7 @@
 // Include the axios package for performing HTTP requests (promise based alternative to request)
 import axios from "axios";
 // NYT API
-const authKey = "5c4953b3d9a64372a9b2d64f55d8d089";
+const authKey = "c93a4c371b3e4641ae996f2794b338b6";
 // Helper Functions
 const helpers = {
     runQuery: (searchTerm) => {
@@ -19,7 +19,6 @@ const helpers = {
         });
     },
 
-    // Todo: eventually add delete item that calls on delete in server.js.
 
     // Hit server to get saved articles.
     getSaved: () => {
