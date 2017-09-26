@@ -1,4 +1,3 @@
-// Include the axios package for performing HTTP requests (promise based alternative to request)
 import axios from "axios";
 // NYT API
 const authKey = "c93a4c371b3e4641ae996f2794b338b6";

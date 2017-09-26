@@ -1,10 +1,8 @@
 import React from "react";
 
-// Import sub-components
 import Search from "./children/Search";
 import Saved from "./children/Saved";
 
-// Helper Function
 import helpers from "./utils/helpers";
 
 class Main extends React.Component {
